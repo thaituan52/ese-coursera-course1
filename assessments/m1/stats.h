@@ -40,13 +40,13 @@
     //Given an array of data and a length, prints the array to the screen
     void print_array(unsigned char* data, unsigned int size);
     //Given an array of data and a length, returns the median value
-    float find_median(unsigned char* data, unsigned int size);
+    unsigned char find_median(unsigned char* data, unsigned int size);
     //Given an array of data and a length, returns the mean
-    int find_mean(unsigned char* data, unsigned int size);
+    unsigned char find_mean(unsigned char* data, unsigned int size);
     //Given an array of data and a length, returns the maximum
-    int find_maximum(unsigned char* data, unsigned int size);
+    unsigned char find_maximum(unsigned char* data, unsigned int size);
      //Given an array of data and a length, returns the minimum
-    int find_minimum(unsigned char* data, unsigned int size);
+    unsigned char find_minimum(unsigned char* data, unsigned int size);
      //Given an array of data and a length, sorts the array from largest to smallest.  (The zeroth Element should be the largest value, and the last element (n-1) should be the smallest value. )
     void sort_array(unsigned char* data, unsigned int size);
 
