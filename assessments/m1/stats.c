@@ -59,7 +59,7 @@ void main() {
     unsigned char find_median(unsigned char* data, unsigned int size) {
     sort_array(data, size);
     if (size % 2 == 0) return data[size/2];
-    else return data[(size+1)/2]
+    else return data[(size+1)/2];
     }
 
     unsigned char find_mean(unsigned char* data, unsigned int size) {
@@ -78,7 +78,7 @@ void main() {
     return max;
     }
 
-    int find_minimum(unsigned char* data, unsigned int size) {
+    unsigned char find_minimum(unsigned char* data, unsigned int size) {
     unsigned char min = data[0];
         for(int i = 1; i < size; i++) {
             if(min > data[i])   min = data[i];
@@ -90,13 +90,11 @@ void main() {
     unsigned char swap = 0;
     for(int i = size - 1 ; i > 0; i--) {
         for(int j = 0; j < (i - 1); j++) {
-        if (data[j] < data[j+1] {
+        if (data[j] < data[j+1]) {
             swap = data[j];
             data[j] = data[j+1];
             data[j+1] = swap;
         }
     }
     }
-    }
-
     }
